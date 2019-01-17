@@ -32,9 +32,13 @@ This gives out
 ```(Index(['ID', 'Datetime', 'Count'], dtype='object'),
  Index(['ID', 'Datetime'], dtype='object'))
  ```
- ```((18288, 3), (5112, 2))
+ 
  ```
- ```(ID           int64
+ ((18288, 3), (5112, 2))
+ ```
+
+```
+(ID           int64
  Datetime    object
  Count        int64
  dtype: object, ID           int64

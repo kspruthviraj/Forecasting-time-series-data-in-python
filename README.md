@@ -22,6 +22,6 @@ c) Traffic during the peak hours will be high.
 ### Dataset Structure and Content
 `train.columns, test.columns`
 
-~~
-~sct_resample 
-~~
+~~~
+sct_resample 
+~~~

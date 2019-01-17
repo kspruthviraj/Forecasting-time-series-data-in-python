@@ -18,17 +18,33 @@ c) Traffic during the peak hours will be high.
 
 
 ## Understanding data
-### Dataset Structure and Content
-Look at the structure by writing
+
+Look at the structure, size and its content by writing
 ~~~
 train.columns, test.columns
+train.shape, test.shape
+train.dtypes, test.dtypes
 ~~~
+
+
 This gives out
 
 ```(Index(['ID', 'Datetime', 'Count'], dtype='object'),
  Index(['ID', 'Datetime'], dtype='object'))
  ```
-ID is the unique number given to each observation point.
+ ```((18288, 3), (5112, 2))
+ ```
+ ```(ID           int64
+ Datetime    object
+ Count        int64
+ dtype: object, ID           int64
+ Datetime    object
+ dtype: object)
+ ```
+- ID is the unique number given to each observation point.
 - Datetime is the time of each observation.
 - Count is the passenger count corresponding to each Datetime.
- 
+- We have 18288 different records for the Count of passengers in train set and 5112 in test set.
+- ID and Count are in integer format while the Datetime is in object format for the train file.
+- Id is in integer and Datetime is in object format for test file.
+

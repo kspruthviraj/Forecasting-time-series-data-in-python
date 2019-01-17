@@ -111,9 +111,9 @@ plt.legend(loc='best')
 
 Now, lets test 2nd and 3rd hypothesis
 
-train.groupby('Hour')['Count'].mean().plot.bar()
+```train.groupby('Hour')['Count'].mean().plot.bar()```
 
-train.groupby('weekend')['Count'].mean().plot.bar()
+```train.groupby('weekend')['Count'].mean().plot.bar()```
 
 
 

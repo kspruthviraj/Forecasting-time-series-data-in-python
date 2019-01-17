@@ -1,6 +1,5 @@
 # Forecasting-the-of-travellers-for-next-few-months-in-python-time-series-analysis-
-The dataset can be downloaded from:
-# Hackathon : https://datahack.analyticsvidhya.com/contest/practice-problem-time-series-2/
+The dataset can be downloaded from Hackathon : https://datahack.analyticsvidhya.com/contest/practice-problem-time-series-2/
 
 
 Unicorn Investors wants to make an investment in a new form of transportation - JetRail. 
@@ -20,7 +19,11 @@ c) Traffic during the peak hours will be high.
 
 ## 2 Understanding data
 ### Dataset Structure and Content
+
+~~~
 `train.columns, test.columns`
+~~~
+
 
 ~~~
 sct_resample 

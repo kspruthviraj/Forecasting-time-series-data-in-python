@@ -17,7 +17,7 @@ b) Traffic on weekdays will be more as compared to weekends/holidays.
 c) Traffic during the peak hours will be high.
 
 
-## 2 Understanding data
+## Understanding data
 ### Dataset Structure and Content
 Look at the structure by writing
 ~~~
@@ -29,6 +29,6 @@ This gives out
  Index(['ID', 'Datetime'], dtype='object'))
  ```
 ID is the unique number given to each observation point.
-..* Datetime is the time of each observation.
-..* Count is the passenger count corresponding to each Datetime.
+- Datetime is the time of each observation.
+- Count is the passenger count corresponding to each Datetime.
  

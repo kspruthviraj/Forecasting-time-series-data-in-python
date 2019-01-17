@@ -19,12 +19,16 @@ c) Traffic during the peak hours will be high.
 
 ## 2 Understanding data
 ### Dataset Structure and Content
-
+Look at the structure by writing
 ~~~
 train.columns, test.columns
 ~~~
+This gives out
 
-
-```
-sct_resample 
-```
+```(Index(['ID', 'Datetime', 'Count'], dtype='object'),
+ Index(['ID', 'Datetime'], dtype='object'))
+ ```
+ID is the unique number given to each observation point.
+..* Datetime is the time of each observation.
+..* Count is the passenger count corresponding to each Datetime.
+ 
